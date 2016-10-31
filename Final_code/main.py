@@ -12,7 +12,7 @@ X_test=pca2.pca_imp(b)
 pca2.plot(X_test)
 Y_train=[1,0,0,0,0,0,0,0,1,1]
 theta= log_reg.th(X_test,Y_train)
-print '\n \n '
+#print '\n \n '
 #print theta
 #log_reg.plot()
 i=log.plot_it
